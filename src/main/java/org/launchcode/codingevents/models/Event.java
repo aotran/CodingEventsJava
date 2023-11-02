@@ -32,6 +32,8 @@ public class Event {
 
     private EventType type;
 
+    private String stuff;
+
     public Event(String name, String description, String contactEmail, EventType type) {
         this.name = name;
         this.description = description;
